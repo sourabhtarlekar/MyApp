@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="MyAppTable" max_length="40" name="x_476798_myapp_myapptable" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

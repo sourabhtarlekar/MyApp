@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>No Records to Display</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>No Records to Display</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-26 15:49:59</sys_created_on>
+        <sys_id>844a60a12f3f40104b13d4a72799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No Records to Display</sys_name>
+        <sys_package display_value="MyApp" source="x_476798_myapp">bd117f092f3340104b13d4a72799b64e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyApp">bd117f092f3340104b13d4a72799b64e</sys_scope>
+        <sys_update_name>sys_template_844a60a12f3f40104b13d4a72799b669</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-26 15:49:59</sys_updated_on>
+        <table>x_476798_myapp2_emp</table>
+        <template/>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>
