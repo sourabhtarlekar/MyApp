@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="MyAppTable" max_length="40" name="x_476798_myapp_myapptable" sizeclass="1" type="collection">
+    <element label="MyAppTable" max_length="40" name="x_476798_myapp_myapptable" sizeclass="2" type="collection">
+        <element label="Created Date" max_length="40" name="created_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="encode_utf8=false" label="Requested for" max_length="32" name="u_rrequested_for" reference="x_476798_myapp_myapptable" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Address" mandatory="true" max_length="40" name="u_string_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pune" sequence="0" value="pune"/>
+                <element inactive_on_update="false" label="PMC" sequence="1" value="pmc"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_rrequested_for"/>
+        </index>
     </element>
 </database>
